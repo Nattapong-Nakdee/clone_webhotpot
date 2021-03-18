@@ -323,8 +323,7 @@ footer{
     }
 
     .last-bar{
-        display: flex;
-        flex-direction: column;
+        display: block;
     }
     .nav-lastbar{
         width: 50%;
@@ -349,8 +348,7 @@ footer{
 
 @media screen and ( max-width : 700px ){
     .last-bar{
-        display: flex;
-        flex-direction: column;
+        display: block;
     }
     .nav-lastbar{
         width: 100%;
