@@ -327,7 +327,7 @@ footer{
     }
 
     .list-lastbar{
-        display: block;
+        display: flex;
     }
 
     .nav-lastbar{
@@ -363,7 +363,7 @@ footer{
     }
 
     .list-lastbar{
-        display: block;
+        display: flex;
     }
 
     .pin_pic{
