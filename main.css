@@ -363,22 +363,31 @@ footer{
     }
 
     .list-lastbar{
-        display: flex;
+        display: grid;
+
+        grid-template-columns: 10% 1fr;
+        margin-top: 10px;
+    }
+
+    .list-lastbar p{
+        align-self: center;
     }
 
     .pin_pic{
         width: 30px;
-        padding: 0px 10px 42px 0px;
+        padding: 10px 10px 10px 0px;
+        align-self: center;
     }
     
     .phone_pic{
-        width: 30px;
-        padding: 0px 10px 30px 0px;
+        padding: 20px 10px 20px 0px;
+        align-self: center;
     }
     
     .mail_pic{
         width: 30px;
-        padding: 0px 10px 10px 0px;
+        padding: 0px 10px 0px 0px;
+        align-self: center;
     }
 
     .text-main-footer{
